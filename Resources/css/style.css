@@ -196,7 +196,52 @@ p {
 
 /* Screens less than 470px */
 
-@media screen only (max-width: 470px){
+@media only screen and (max-width: 470px){
 
-  
+  .new {
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  .arrival {
+    font-size: 0.77rem;
+    padding: 1rem 0 0 2rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding: .25rem 0 1rem 2rem;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  #banner {
+    height: 15rem;
+  }
+
+  .products.location {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .footer2 {
+    text-align: center;
+  }
+
 }
